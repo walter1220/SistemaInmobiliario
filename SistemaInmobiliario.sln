@@ -7,8 +7,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dominio", "Dominio", "{02EA
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infraestructura", "Infraestructura", "{03833565-54DD-4733-B8F6-B57A568258ED}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SistemaInmobilario.Dominio", "SistemaInmobilario.Dominio\SistemaInmobilario.Dominio.csproj", "{DA731F54-5D35-4E8E-B5AB-8F826CCCA65C}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SistemaInmobiliario.Infraestructura", "SistemaInmobiliario.Infraestructura\SistemaInmobiliario.Infraestructura.csproj", "{8B4E4B42-E062-4421-8866-F2F85BD9E16E}"
 EndProject
 Global
@@ -17,10 +15,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{DA731F54-5D35-4E8E-B5AB-8F826CCCA65C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{DA731F54-5D35-4E8E-B5AB-8F826CCCA65C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{DA731F54-5D35-4E8E-B5AB-8F826CCCA65C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{DA731F54-5D35-4E8E-B5AB-8F826CCCA65C}.Release|Any CPU.Build.0 = Release|Any CPU
 		{8B4E4B42-E062-4421-8866-F2F85BD9E16E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{8B4E4B42-E062-4421-8866-F2F85BD9E16E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8B4E4B42-E062-4421-8866-F2F85BD9E16E}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -30,7 +24,6 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{DA731F54-5D35-4E8E-B5AB-8F826CCCA65C} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 		{8B4E4B42-E062-4421-8866-F2F85BD9E16E} = {03833565-54DD-4733-B8F6-B57A568258ED}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
